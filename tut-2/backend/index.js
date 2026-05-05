@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-const mongoURI = "mongodb+srv://vishal:KxqrqciYQcFDVYSh@cluster0.kqdehxf.mongodb.net/attendance_db?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = "";
 mongoose.connect(mongoURI)
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
